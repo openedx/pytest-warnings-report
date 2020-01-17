@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """
 Module to put all pytest hooks that modify pytest behaviour
 """
@@ -65,7 +64,7 @@ def pytest_sessionfinish(session):
 
 
 class DeferPlugin(object):
-    """Simple plugin to defer pytest-xdist hook functions."""
+    """Simple plugin to defer json-report hook functions."""
 
     def pytest_json_modifyreport(self, json_report):
         """standard xdist hook function.
@@ -79,4 +78,3 @@ class DeferPlugin(object):
 def pytest_configure(config):
     if config.pluginmanager.hasplugin("json-report"):
         config.pluginmanager.register(DeferPlugin())
-
