@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import codecs
 import os
 import re
 import sys
@@ -51,7 +52,7 @@ def is_requirement(line):
     return line and not line.startswith(('-r', '#', '-e', 'git+', '-c'))
 
 
-VERSION = get_version('warnings_report', '__init__.py')
+VERSION = get_version('__init__.py')
 
 if sys.argv[-1] == 'tag':
     print("Tagging the version on github:")
