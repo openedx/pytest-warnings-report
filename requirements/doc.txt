@@ -16,7 +16,7 @@ code-annotations==0.3.3
 configparser==4.0.2
 contextlib2==0.6.0.post1
 coverage==5.0.3
-django==1.11.27
+django==1.11.28           # via code-annotations
 doc8==0.8.0
 docutils==0.16            # via doc8, readme-renderer, restructuredtext-lint, sphinx
 edx-sphinx-theme==1.5.0

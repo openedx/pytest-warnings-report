@@ -14,7 +14,7 @@ code-annotations==0.3.3
 configparser==4.0.2
 contextlib2==0.6.0.post1
 coverage==5.0.3
-django==1.11.27
+django==1.11.28           # via code-annotations
 edx-lint==1.4.1
 enum34==1.1.6             # via astroid
 funcsigs==1.0.2
