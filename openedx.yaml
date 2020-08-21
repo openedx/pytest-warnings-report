@@ -1,17 +1,13 @@
-# openedx.yaml
-
----
-owner: edx/arch-bom
 nick: warnings-report
 tags:
     - tools
 oeps:
-    oep-2: True
+    oep-2: true
     oep-3:
-        state: False
+        state: false
         reason: TODO - Implement for this application if appropriate
     oep-5:
-        state: False
+        state: false
         reason: TODO - Implement for this application if appropriate
     oep-30:
-        state: True
+        state: true
