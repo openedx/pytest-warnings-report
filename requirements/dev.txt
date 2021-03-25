@@ -5,75 +5,325 @@
 #    make upgrade
 #
 astroid==1.6.6
+    # via
+    #   -r quality.txt
+    #   pylint
+    #   pylint-celery
 atomicwrites==1.3.0
+    # via
+    #   -r quality.txt
+    #   pytest
 attrs==19.3.0
+    # via
+    #   -r quality.txt
+    #   pytest
 backports.functools-lru-cache==1.6.1
+    # via
+    #   -r quality.txt
+    #   astroid
+    #   isort
+    #   pylint
+backports.os==0.1.1
+    # via path.py
 certifi==2019.11.28
+    # via
+    #   -r travis.txt
+    #   requests
 chardet==3.0.4
+    # via
+    #   -r travis.txt
+    #   requests
 click-log==0.3.2
+    # via
+    #   -r quality.txt
+    #   edx-lint
 click==7.0
+    # via
+    #   -r pip-tools.txt
+    #   -r quality.txt
+    #   click-log
+    #   code-annotations
+    #   edx-lint
+    #   pip-tools
 code-annotations==0.3.3
+    # via -r quality.txt
 codecov==2.0.15
+    # via -r travis.txt
 configparser==4.0.2
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   importlib-metadata
+    #   pydocstyle
+    #   pylint
 contextlib2==0.6.0.post1
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   importlib-metadata
 coverage==5.0.3
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   codecov
+    #   pytest-cov
 diff-cover==2.5.2
-django==1.11.27
+    # via -r dev.in
+django==1.11.29
+    # via
+    #   -c constraints.txt
+    #   -r quality.txt
+    #   code-annotations
+    #   edx-i18n-tools
 edx-i18n-tools==0.5.0
+    # via -r dev.in
 edx-lint==1.4.1
+    # via -r quality.txt
 enum34==1.1.6
+    # via
+    #   -r quality.txt
+    #   astroid
 filelock==3.0.12
+    # via
+    #   -r travis.txt
+    #   tox
 funcsigs==1.0.2
+    # via
+    #   -r quality.txt
+    #   pytest
+future==0.18.2
+    # via backports.os
 futures==3.3.0
+    # via
+    #   -r quality.txt
+    #   isort
 idna==2.8
+    # via
+    #   -r travis.txt
+    #   requests
 importlib-metadata==1.4.0
-inflect==3.0.2            # via jinja2-pluralize
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   inflect
+    #   path.py
+    #   pluggy
+    #   pytest
+    #   tox
+inflect==3.0.2
+    # via jinja2-pluralize
 isort==4.3.21
-jinja2-pluralize==0.3.0   # via diff-cover
+    # via
+    #   -r quality.txt
+    #   pylint
+jinja2-pluralize==0.3.0
+    # via diff-cover
 jinja2==2.10.3
+    # via
+    #   -r quality.txt
+    #   code-annotations
+    #   diff-cover
+    #   jinja2-pluralize
 lazy-object-proxy==1.4.3
+    # via
+    #   -r quality.txt
+    #   astroid
 markupsafe==1.1.1
+    # via
+    #   -r quality.txt
+    #   jinja2
 mccabe==0.6.1
+    # via
+    #   -r quality.txt
+    #   pylint
 more-itertools==5.0.0
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   pytest
+    #   zipp
 numpy==1.16.6
+    # via
+    #   -r quality.txt
+    #   pandas
 packaging==20.0
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   pytest
+    #   tox
 pandas==0.24.2
-path.py==11.5.2           # via edx-i18n-tools
+    # via -r quality.txt
+path.py==11.5.2
+    # via edx-i18n-tools
 pathlib2==2.3.5
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   importlib-metadata
+    #   pytest
+    #   pytest-django
 pbr==5.4.4
+    # via
+    #   -r quality.txt
+    #   stevedore
 pip-tools==4.3.0
+    # via -r pip-tools.txt
 pluggy==0.13.1
-polib==1.1.0              # via edx-i18n-tools
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   diff-cover
+    #   pytest
+    #   tox
+polib==1.1.0
+    # via edx-i18n-tools
 py==1.8.1
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   pytest
+    #   tox
 pycodestyle==2.5.0
+    # via -r quality.txt
 pydocstyle==3.0.0
-pygments==2.5.2           # via diff-cover
+    # via -r quality.txt
+pygments==2.5.2
+    # via diff-cover
 pylint-celery==0.3
+    # via
+    #   -r quality.txt
+    #   edx-lint
 pylint-django==0.11.1
+    # via
+    #   -r quality.txt
+    #   edx-lint
 pylint-plugin-utils==0.6
+    # via
+    #   -r quality.txt
+    #   pylint-celery
+    #   pylint-django
 pylint==1.9.5
+    # via
+    #   -r quality.txt
+    #   edx-lint
+    #   pylint-celery
+    #   pylint-django
+    #   pylint-plugin-utils
 pyparsing==2.4.6
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   packaging
 pytest-cov==2.8.1
+    # via -r quality.txt
 pytest-django==3.8.0
+    # via -r quality.txt
 pytest-json-report==1.2.1
+    # via -r quality.txt
 pytest-metadata==1.8.0
+    # via
+    #   -r quality.txt
+    #   pytest-json-report
 pytest==4.6.9
+    # via
+    #   -r quality.txt
+    #   pytest-cov
+    #   pytest-django
+    #   pytest-json-report
+    #   pytest-metadata
 python-dateutil==2.8.1
+    # via
+    #   -r quality.txt
+    #   pandas
 python-slugify==4.0.0
+    # via
+    #   -r quality.txt
+    #   code-annotations
 pytz==2019.3
-pyyaml==5.3
+    # via
+    #   -r quality.txt
+    #   django
+    #   pandas
+pyyaml==5.4
+    # via
+    #   -r quality.txt
+    #   code-annotations
+    #   edx-i18n-tools
 requests==2.22.0
+    # via
+    #   -r travis.txt
+    #   codecov
 scandir==1.10.0
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   pathlib2
 singledispatch==3.4.0.3
+    # via
+    #   -r quality.txt
+    #   astroid
+    #   pylint
 six==1.13.0
+    # via
+    #   -r pip-tools.txt
+    #   -r quality.txt
+    #   -r travis.txt
+    #   astroid
+    #   diff-cover
+    #   edx-i18n-tools
+    #   edx-lint
+    #   more-itertools
+    #   packaging
+    #   pathlib2
+    #   pip-tools
+    #   pydocstyle
+    #   pylint
+    #   pytest
+    #   python-dateutil
+    #   singledispatch
+    #   stevedore
+    #   tox
 snowballstemmer==2.0.0
+    # via
+    #   -r quality.txt
+    #   pydocstyle
 stevedore==1.31.0
+    # via
+    #   -r quality.txt
+    #   code-annotations
 text-unidecode==1.3
+    # via
+    #   -r quality.txt
+    #   python-slugify
 toml==0.10.0
+    # via
+    #   -r travis.txt
+    #   tox
 tox-battery==0.5.1
+    # via -r travis.txt
 tox==3.14.3
+    # via
+    #   -r travis.txt
+    #   tox-battery
 urllib3==1.25.7
+    # via
+    #   -r travis.txt
+    #   requests
 virtualenv==16.7.9
+    # via
+    #   -r travis.txt
+    #   tox
 wcwidth==0.1.8
+    # via
+    #   -r quality.txt
+    #   pytest
 wrapt==1.11.2
+    # via
+    #   -r quality.txt
+    #   astroid
 zipp==1.0.0
+    # via
+    #   -r quality.txt
+    #   -r travis.txt
+    #   importlib-metadata
