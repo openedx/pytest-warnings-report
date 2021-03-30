@@ -46,13 +46,11 @@ def is_requirement(line):
     return line and not line.startswith(('-r', '#', '-e', 'git+', '-c'))
 
 
-VERSION = get_version('warnings_report', '__init__.py')
-
-if sys.argv[-1] == 'tag':
-    print("Tagging the version on github:")
-    os.system(u"git tag -a %s -m 'version %s'" % (VERSION, VERSION))
-    os.system("git push --tags")
-    sys.exit()
+# if sys.argv[-1] == 'tag':
+#     print("Tagging the version on github:")
+#     os.system(u"git tag -a %s -m 'version %s'" % (VERSION, VERSION))
+#     os.system("git push --tags")
+#     sys.exit()
 
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst')).read()
@@ -68,7 +66,7 @@ setup(
     license='AGPL',
     url='https://github.com/edx/pytest-warnings-report',
     description='A pytest plugin for generating warnings reports.',
-    long_description=read('README.rst'),
+    long_description=README,
     py_modules=['pytest_warnings_report'],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     include_package_data=True,
