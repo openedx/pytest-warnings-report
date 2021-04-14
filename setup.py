@@ -46,11 +46,11 @@ def is_requirement(line):
     return line and not line.startswith(('-r', '#', '-e', 'git+', '-c'))
 
 
-# if sys.argv[-1] == 'tag':
-#     print("Tagging the version on github:")
-#     os.system(u"git tag -a %s -m 'version %s'" % (VERSION, VERSION))
-#     os.system("git push --tags")
-#     sys.exit()
+if sys.argv[-1] == 'tag':
+    print("Tagging the version on github:")
+    os.system(u"git tag -a %s -m 'version %s'" % (VERSION, VERSION))
+    os.system("git push --tags")
+    sys.exit()
 
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst')).read()
