@@ -5,37 +5,131 @@
 #    make upgrade
 #
 atomicwrites==1.3.0
+    # via
+    #   -r base.txt
+    #   pytest
 attrs==19.3.0
-click==7.0                # via code-annotations
+    # via
+    #   -r base.txt
+    #   pytest
+click==7.0
+    # via code-annotations
 code-annotations==0.3.3
+    # via -r test.in
 configparser==4.0.2
+    # via
+    #   -r base.txt
+    #   importlib-metadata
 contextlib2==0.6.0.post1
-coverage==5.0.3           # via pytest-cov
+    # via
+    #   -r base.txt
+    #   importlib-metadata
+coverage==5.0.3
+    # via pytest-cov
+django==1.11.29
+    # via
+    #   -c constraints.txt
+    #   code-annotations
 funcsigs==1.0.2
+    # via
+    #   -r base.txt
+    #   pytest
 importlib-metadata==1.4.0
-jinja2==2.10.3            # via code-annotations
-markupsafe==1.1.1         # via jinja2
+    # via
+    #   -r base.txt
+    #   pluggy
+    #   pytest
+jinja2==2.10.3
+    # via code-annotations
+markupsafe==1.1.1
+    # via jinja2
 more-itertools==5.0.0
+    # via
+    #   -r base.txt
+    #   pytest
+    #   zipp
 numpy==1.16.6
+    # via
+    #   -r base.txt
+    #   pandas
 packaging==20.0
+    # via
+    #   -r base.txt
+    #   pytest
 pandas==0.24.2
+    # via -r base.txt
 pathlib2==2.3.5
-pbr==5.4.4                # via stevedore
+    # via
+    #   -r base.txt
+    #   importlib-metadata
+    #   pytest
+    #   pytest-django
+pbr==5.4.4
+    # via stevedore
 pluggy==0.13.1
-py==1.8.1
+    # via
+    #   -r base.txt
+    #   pytest
+py==1.10.0
+    # via
+    #   -r base.txt
+    #   pytest
 pyparsing==2.4.6
+    # via
+    #   -r base.txt
+    #   packaging
 pytest-cov==2.8.1
+    # via -r test.in
 pytest-django==3.8.0
+    # via -r test.in
 pytest-json-report==1.2.1
+    # via -r base.txt
 pytest-metadata==1.8.0
+    # via
+    #   -r base.txt
+    #   pytest-json-report
 pytest==4.6.9
+    # via
+    #   -r base.txt
+    #   pytest-cov
+    #   pytest-django
+    #   pytest-json-report
+    #   pytest-metadata
 python-dateutil==2.8.1
-python-slugify==4.0.0     # via code-annotations
+    # via
+    #   -r base.txt
+    #   pandas
+python-slugify==4.0.0
+    # via code-annotations
 pytz==2019.3
-pyyaml==5.3               # via code-annotations
+    # via
+    #   -r base.txt
+    #   django
+    #   pandas
+pyyaml==5.3
+    # via code-annotations
 scandir==1.10.0
+    # via
+    #   -r base.txt
+    #   pathlib2
 six==1.13.0
-stevedore==1.31.0         # via code-annotations
-text-unidecode==1.3       # via python-slugify
+    # via
+    #   -r base.txt
+    #   more-itertools
+    #   packaging
+    #   pathlib2
+    #   pytest
+    #   python-dateutil
+    #   stevedore
+stevedore==1.31.0
+    # via code-annotations
+text-unidecode==1.3
+    # via python-slugify
 wcwidth==0.1.8
+    # via
+    #   -r base.txt
+    #   pytest
 zipp==1.0.0
+    # via
+    #   -r base.txt
+    #   importlib-metadata

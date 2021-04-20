@@ -4,26 +4,61 @@
 #
 #    make upgrade
 #
-atomicwrites==1.3.0       # via pytest
-attrs==19.3.0             # via pytest
-configparser==4.0.2       # via importlib-metadata
-contextlib2==0.6.0.post1  # via importlib-metadata
-funcsigs==1.0.2           # via pytest
-importlib-metadata==1.4.0  # via pluggy, pytest
-more-itertools==5.0.0     # via pytest, zipp
-numpy==1.16.6             # via pandas
-packaging==20.0           # via pytest
+atomicwrites==1.3.0
+    # via pytest
+attrs==19.3.0
+    # via pytest
+configparser==4.0.2
+    # via importlib-metadata
+contextlib2==0.6.0.post1
+    # via importlib-metadata
+funcsigs==1.0.2
+    # via pytest
+importlib-metadata==1.4.0
+    # via
+    #   pluggy
+    #   pytest
+more-itertools==5.0.0
+    # via pytest
+numpy==1.16.6
+    # via pandas
+packaging==20.0
+    # via pytest
 pandas==0.24.2
-pathlib2==2.3.5           # via importlib-metadata, pytest
-pluggy==0.13.1            # via pytest
-py==1.8.1                 # via pytest
-pyparsing==2.4.6          # via packaging
+    # via -r base.in
+pathlib2==2.3.5
+    # via
+    #   importlib-metadata
+    #   pytest
+pluggy==0.13.1
+    # via pytest
+py==1.10.0
+    # via pytest
+pyparsing==2.4.6
+    # via packaging
 pytest-json-report==1.2.1
-pytest-metadata==1.8.0    # via pytest-json-report
+    # via -r base.in
+pytest-metadata==1.8.0
+    # via pytest-json-report
 pytest==4.6.9
-python-dateutil==2.8.1    # via pandas
-pytz==2019.3              # via pandas
-scandir==1.10.0           # via pathlib2
-six==1.13.0               # via more-itertools, packaging, pathlib2, pytest, python-dateutil
-wcwidth==0.1.8            # via pytest
-zipp==1.0.0               # via importlib-metadata
+    # via
+    #   -r base.in
+    #   pytest-json-report
+    #   pytest-metadata
+python-dateutil==2.8.1
+    # via pandas
+pytz==2019.3
+    # via pandas
+scandir==1.10.0
+    # via pathlib2
+six==1.13.0
+    # via
+    #   more-itertools
+    #   packaging
+    #   pathlib2
+    #   pytest
+    #   python-dateutil
+wcwidth==0.1.8
+    # via pytest
+zipp==1.0.0
+    # via importlib-metadata
