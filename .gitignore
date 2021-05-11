@@ -1,2 +1,9 @@
 .DS_STORE
 *.swp
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
