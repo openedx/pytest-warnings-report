@@ -14,5 +14,9 @@ Django<2.3
 # Version 4.0.0 dropped support for Django < 2.0.1
 django-model-utils<4.0.0
 
-# See https://openedx.atlassian.net/browse/BOM-2247 for details.
-pip-tools==5.3.0
+# Sphinx>=4.0.1 requires Jinja2<3.0.0, MarkupSafe<2.0.0 (Can be removed once Sphinx==4.0.2 is released)
+Jinja2<3.0.0
+MarkupSafe<2.0.0
+
+# click>=8.0.0 causes conflicts with Sphinx>=4.0.0(which requires jinja2<3.2, click<8.0)
+click<8.0.0
