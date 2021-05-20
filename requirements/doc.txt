@@ -65,7 +65,6 @@ markupsafe==1.1.1
     #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   jinja2
-    #   sphinx
 numpy==1.20.3
     # via
     #   -r requirements/test.txt
@@ -150,7 +149,7 @@ six==1.16.0
     #   readme-renderer
 snowballstemmer==2.1.0
     # via sphinx
-sphinx==4.0.1
+sphinx==4.0.2
     # via
     #   -r requirements/doc.in
     #   edx-sphinx-theme
