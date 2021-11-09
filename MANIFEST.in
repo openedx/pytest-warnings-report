@@ -3,3 +3,4 @@ include README.rst
 
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
+include requirements/constraints.txt
