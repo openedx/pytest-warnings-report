@@ -12,13 +12,10 @@ click==7.1.2
     # via
     #   -c requirements/constraints.txt
     #   code-annotations
-code-annotations==1.1.1
+code-annotations==1.2.0
     # via -r requirements/test.in
-coverage[toml]==5.5
+coverage[toml]==6.2
     # via pytest-cov
-    # via
-    #   -c requirements/constraints.txt
-    #   code-annotations
 iniconfig==1.1.1
     # via
     #   -r requirements/base.txt
@@ -31,72 +28,70 @@ markupsafe==1.1.1
     # via
     #   -c requirements/constraints.txt
     #   jinja2
-numpy==1.20.3
+numpy==1.21.4
     # via
     #   -r requirements/base.txt
     #   pandas
-packaging==20.9
+packaging==21.3
     # via
     #   -r requirements/base.txt
     #   pytest
-pandas==1.2.4
+pandas==1.3.5
     # via -r requirements/base.txt
-pbr==5.6.0
+pbr==5.8.0
     # via stevedore
-pluggy==0.13.1
+pluggy==1.0.0
     # via
     #   -r requirements/base.txt
     #   pytest
-py==1.10.0
+py==1.11.0
     # via
     #   -r requirements/base.txt
     #   pytest
-pyparsing==2.4.7
+pyparsing==3.0.6
     # via
     #   -r requirements/base.txt
     #   packaging
-pytest-cov==2.12.0
+pytest-cov==3.0.0
     # via -r requirements/test.in
-pytest-django==4.3.0
+pytest-django==4.5.2
     # via -r requirements/test.in
-pytest-json-report==1.3.0
+pytest-json-report==1.4.1
     # via -r requirements/base.txt
 pytest-metadata==1.11.0
     # via
     #   -r requirements/base.txt
     #   pytest-json-report
-pytest==6.2.4
+pytest==6.2.5
     # via
     #   -r requirements/base.txt
     #   pytest-cov
     #   pytest-django
     #   pytest-json-report
     #   pytest-metadata
-python-dateutil==2.8.1
+python-dateutil==2.8.2
     # via
     #   -r requirements/base.txt
     #   pandas
 python-slugify==5.0.2
     # via code-annotations
-pytz==2021.1
+pytz==2021.3
     # via
     #   -r requirements/base.txt
-    #   django
     #   pandas
-pyyaml==5.4.1
+pyyaml==6.0
     # via code-annotations
 six==1.16.0
     # via
     #   -r requirements/base.txt
     #   python-dateutil
-sqlparse==0.4.1
-    # via django
-stevedore==3.3.0
+stevedore==3.5.0
     # via code-annotations
 text-unidecode==1.3
     # via python-slugify
 toml==0.10.2
     # via
     #   -r requirements/base.txt
-    #   coverage
     #   pytest
+tomli==2.0.0
+    # via coverage
