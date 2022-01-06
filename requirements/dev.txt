@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.9.0
+astroid==2.9.2
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -19,7 +19,7 @@ certifi==2021.10.8
     #   requests
 chardet==4.0.0
     # via diff-cover
-charset-normalizer==2.0.9
+charset-normalizer==2.0.10
     # via
     #   -r requirements/travis.txt
     #   requests
@@ -54,7 +54,7 @@ distlib==0.3.4
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==2.2.25
+django==2.2.26
     # via
     #   -c requirements/constraints.txt
     #   edx-i18n-tools
@@ -98,7 +98,7 @@ mccabe==0.6.1
     # via
     #   -r requirements/quality.txt
     #   pylint
-numpy==1.21.5
+numpy==1.22.0
     # via
     #   -r requirements/quality.txt
     #   pandas
@@ -147,7 +147,7 @@ pycodestyle==2.8.0
     # via -r requirements/quality.txt
 pydocstyle==6.1.1
     # via -r requirements/quality.txt
-pygments==2.10.0
+pygments==2.11.1
     # via diff-cover
 pylint==2.12.2
     # via
@@ -160,7 +160,7 @@ pylint-celery==0.3
     # via
     #   -r requirements/quality.txt
     #   edx-lint
-pylint-django==2.4.4
+pylint-django==2.5.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -209,7 +209,7 @@ pyyaml==6.0
     #   -r requirements/quality.txt
     #   code-annotations
     #   edx-i18n-tools
-requests==2.26.0
+requests==2.27.1
     # via
     #   -r requirements/travis.txt
     #   codecov
@@ -263,7 +263,7 @@ urllib3==1.26.7
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.11.2
+virtualenv==20.13.0
     # via
     #   -r requirements/travis.txt
     #   tox
