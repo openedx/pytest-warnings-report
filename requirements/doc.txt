@@ -82,7 +82,7 @@ py==1.11.0
     # via
     #   -r requirements/test.txt
     #   pytest
-pygments==2.11.1
+pygments==2.11.2
     # via
     #   doc8
     #   readme-renderer
@@ -172,7 +172,7 @@ tomli==2.0.0
     # via
     #   -r requirements/test.txt
     #   coverage
-urllib3==1.26.7
+urllib3==1.26.8
     # via requests
 webencodings==0.5.1
     # via bleach
