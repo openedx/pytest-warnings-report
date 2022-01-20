@@ -28,7 +28,7 @@ markupsafe==1.1.1
     # via
     #   -c requirements/constraints.txt
     #   jinja2
-numpy==1.22.0
+numpy==1.22.1
     # via
     #   -r requirements/base.txt
     #   pandas
