@@ -98,7 +98,7 @@ mccabe==0.6.1
     # via
     #   -r requirements/quality.txt
     #   pylint
-numpy==1.22.0
+numpy==1.22.1
     # via
     #   -r requirements/quality.txt
     #   pandas
