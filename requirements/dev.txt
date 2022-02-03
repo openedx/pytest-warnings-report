@@ -19,7 +19,7 @@ certifi==2021.10.8
     #   requests
 chardet==4.0.0
     # via diff-cover
-charset-normalizer==2.0.10
+charset-normalizer==2.0.11
     # via
     #   -r requirements/travis.txt
     #   requests
@@ -42,7 +42,7 @@ code-annotations==1.2.0
     #   edx-lint
 codecov==2.1.12
     # via -r requirements/travis.txt
-coverage[toml]==6.3
+coverage[toml]==6.3.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -54,7 +54,7 @@ distlib==0.3.4
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==2.2.26
+django==2.2.27
     # via
     #   -c requirements/constraints.txt
     #   edx-i18n-tools
