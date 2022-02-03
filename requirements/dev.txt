@@ -4,6 +4,8 @@
 #
 #    make upgrade
 #
+asgiref==3.5.0
+    # via django
 astroid==2.9.3
     # via
     #   -r requirements/quality.txt
@@ -23,9 +25,8 @@ charset-normalizer==2.0.11
     # via
     #   -r requirements/travis.txt
     #   requests
-click==7.1.2
+click==8.0.3
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/pip-tools.txt
     #   -r requirements/quality.txt
     #   click-log
@@ -54,9 +55,9 @@ distlib==0.3.4
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==2.2.27
+django==3.2.12
     # via
-    #   -c requirements/constraints.txt
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-i18n-tools
 edx-i18n-tools==0.8.1
     # via -r requirements/dev.in
@@ -79,9 +80,8 @@ isort==5.10.1
     # via
     #   -r requirements/quality.txt
     #   pylint
-jinja2==2.11.3
+jinja2==3.0.3
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/quality.txt
     #   code-annotations
     #   diff-cover
@@ -89,9 +89,8 @@ lazy-object-proxy==1.7.1
     # via
     #   -r requirements/quality.txt
     #   astroid
-markupsafe==1.1.1
+markupsafe==2.0.1
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/quality.txt
     #   jinja2
 mccabe==0.6.1

@@ -18,9 +18,8 @@ certifi==2021.10.8
     # via requests
 charset-normalizer==2.0.11
     # via requests
-click==7.1.2
+click==8.0.3
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   code-annotations
 code-annotations==1.2.0
@@ -49,15 +48,13 @@ iniconfig==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
-jinja2==2.11.3
+jinja2==3.0.3
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   code-annotations
     #   sphinx
-markupsafe==1.1.1
+markupsafe==2.0.1
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   jinja2
 numpy==1.22.1

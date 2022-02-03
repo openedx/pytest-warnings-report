@@ -12,9 +12,8 @@ attrs==21.4.0
     # via
     #   -r requirements/test.txt
     #   pytest
-click==7.1.2
+click==8.0.3
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   click-log
     #   code-annotations
@@ -39,16 +38,14 @@ isort==5.10.1
     # via
     #   -r requirements/quality.in
     #   pylint
-jinja2==2.11.3
+jinja2==3.0.3
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   code-annotations
 lazy-object-proxy==1.7.1
     # via astroid
-markupsafe==1.1.1
+markupsafe==2.0.1
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   jinja2
 mccabe==0.6.1
