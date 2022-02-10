@@ -8,7 +8,7 @@ attrs==21.4.0
     # via pytest
 iniconfig==1.1.1
     # via pytest
-numpy==1.22.1
+numpy==1.22.2
     # via pandas
 packaging==21.3
     # via pytest
@@ -20,7 +20,7 @@ py==1.11.0
     # via pytest
 pyparsing==3.0.7
     # via packaging
-pytest==6.2.5
+pytest==7.0.0
     # via
     #   -r requirements/base.in
     #   pytest-json-report
@@ -35,5 +35,5 @@ pytz==2021.3
     # via pandas
 six==1.16.0
     # via python-dateutil
-toml==0.10.2
+tomli==2.0.1
     # via pytest
