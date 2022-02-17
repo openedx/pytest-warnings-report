@@ -30,7 +30,7 @@ packaging==21.3
     # via
     #   -r requirements/base.txt
     #   pytest
-pandas==1.4.0
+pandas==1.4.1
     # via -r requirements/base.txt
 pbr==5.8.1
     # via stevedore
@@ -46,7 +46,7 @@ pyparsing==3.0.7
     # via
     #   -r requirements/base.txt
     #   packaging
-pytest==7.0.0
+pytest==7.0.1
     # via
     #   -r requirements/base.txt
     #   pytest-cov
@@ -67,7 +67,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/base.txt
     #   pandas
-python-slugify==5.0.2
+python-slugify==6.0.1
     # via code-annotations
 pytz==2021.3
     # via
