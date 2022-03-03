@@ -109,7 +109,7 @@ packaging==21.3
     #   tox
 pandas==1.4.1
     # via -r requirements/quality.txt
-path==16.3.0
+path==16.4.0
     # via edx-i18n-tools
 pbr==5.8.1
     # via
@@ -194,7 +194,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/quality.txt
     #   pandas
-python-slugify==6.1.0
+python-slugify==6.1.1
     # via
     #   -r requirements/quality.txt
     #   code-annotations
@@ -262,7 +262,7 @@ urllib3==1.26.8
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.13.1
+virtualenv==20.13.2
     # via
     #   -r requirements/travis.txt
     #   tox
