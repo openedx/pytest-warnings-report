@@ -117,7 +117,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   pandas
-python-slugify==6.1.0
+python-slugify==6.1.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
