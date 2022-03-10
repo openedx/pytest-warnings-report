@@ -22,7 +22,7 @@ jinja2==3.0.3
     # via code-annotations
 markupsafe==2.1.0
     # via jinja2
-numpy==1.22.2
+numpy==1.22.3
     # via
     #   -r requirements/base.txt
     #   pandas

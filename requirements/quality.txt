@@ -50,7 +50,7 @@ markupsafe==2.1.0
     #   jinja2
 mccabe==0.6.1
     # via pylint
-numpy==1.22.2
+numpy==1.22.3
     # via
     #   -r requirements/test.txt
     #   pandas
