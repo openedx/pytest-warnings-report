@@ -33,7 +33,7 @@ click==8.0.4
     #   code-annotations
     #   edx-lint
     #   pip-tools
-click-log==0.3.2
+click-log==0.4.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -89,7 +89,7 @@ lazy-object-proxy==1.7.1
     # via
     #   -r requirements/quality.txt
     #   astroid
-markupsafe==2.1.0
+markupsafe==2.1.1
     # via
     #   -r requirements/quality.txt
     #   jinja2
@@ -173,7 +173,7 @@ pyparsing==3.0.7
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
     #   packaging
-pytest==7.0.1
+pytest==7.1.0
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -184,7 +184,7 @@ pytest-cov==3.0.0
     # via -r requirements/quality.txt
 pytest-django==4.5.2
     # via -r requirements/quality.txt
-pytest-json-report==1.4.1
+pytest-json-report==1.5.0
     # via -r requirements/quality.txt
 pytest-metadata==1.11.0
     # via
@@ -258,7 +258,7 @@ typing-extensions==4.1.1
     #   -r requirements/quality.txt
     #   astroid
     #   pylint
-urllib3==1.26.8
+urllib3==1.26.9
     # via
     #   -r requirements/travis.txt
     #   requests
