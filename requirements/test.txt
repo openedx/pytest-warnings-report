@@ -20,7 +20,7 @@ iniconfig==1.1.1
     #   pytest
 jinja2==3.0.3
     # via code-annotations
-markupsafe==2.1.0
+markupsafe==2.1.1
     # via jinja2
 numpy==1.22.3
     # via
@@ -46,7 +46,7 @@ pyparsing==3.0.7
     # via
     #   -r requirements/base.txt
     #   packaging
-pytest==7.0.1
+pytest==7.1.0
     # via
     #   -r requirements/base.txt
     #   pytest-cov
@@ -57,7 +57,7 @@ pytest-cov==3.0.0
     # via -r requirements/test.in
 pytest-django==4.5.2
     # via -r requirements/test.in
-pytest-json-report==1.4.1
+pytest-json-report==1.5.0
     # via -r requirements/base.txt
 pytest-metadata==1.11.0
     # via
