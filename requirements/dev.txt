@@ -173,7 +173,7 @@ pyparsing==3.0.7
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
     #   packaging
-pytest==7.1.0
+pytest==7.1.1
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -186,7 +186,7 @@ pytest-django==4.5.2
     # via -r requirements/quality.txt
 pytest-json-report==1.5.0
     # via -r requirements/quality.txt
-pytest-metadata==1.11.0
+pytest-metadata==2.0.0
     # via
     #   -r requirements/quality.txt
     #   pytest-json-report
@@ -198,7 +198,7 @@ python-slugify==6.1.1
     # via
     #   -r requirements/quality.txt
     #   code-annotations
-pytz==2021.3
+pytz==2022.1
     # via
     #   -r requirements/quality.txt
     #   django
@@ -262,7 +262,7 @@ urllib3==1.26.9
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.13.3
+virtualenv==20.13.4
     # via
     #   -r requirements/travis.txt
     #   tox
