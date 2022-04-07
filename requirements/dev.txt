@@ -25,7 +25,7 @@ charset-normalizer==2.0.12
     # via
     #   -r requirements/travis.txt
     #   requests
-click==8.1.1
+click==8.1.2
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/quality.txt
@@ -111,7 +111,7 @@ packaging==21.3
     #   -r requirements/travis.txt
     #   pytest
     #   tox
-pandas==1.4.1
+pandas==1.4.2
     # via -r requirements/quality.txt
 path==16.4.0
     # via edx-i18n-tools
@@ -123,7 +123,7 @@ pep517==0.12.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-pip-tools==6.5.1
+pip-tools==6.6.0
     # via -r requirements/pip-tools.txt
 platformdirs==2.5.1
     # via
@@ -152,7 +152,7 @@ pydocstyle==6.1.1
     # via -r requirements/quality.txt
 pygments==2.11.2
     # via diff-cover
-pylint==2.13.3
+pylint==2.13.5
     # via
     #   -r requirements/quality.txt
     #   edx-lint
