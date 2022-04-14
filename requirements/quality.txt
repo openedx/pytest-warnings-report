@@ -12,7 +12,7 @@ attrs==21.4.0
     # via
     #   -r requirements/test.txt
     #   pytest
-click==8.1.1
+click==8.1.2
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -60,7 +60,7 @@ packaging==21.3
     # via
     #   -r requirements/test.txt
     #   pytest
-pandas==1.4.1
+pandas==1.4.2
     # via -r requirements/test.txt
 pbr==5.8.1
     # via
@@ -80,7 +80,7 @@ pycodestyle==2.8.0
     # via -r requirements/quality.in
 pydocstyle==6.1.1
     # via -r requirements/quality.in
-pylint==2.13.3
+pylint==2.13.5
     # via
     #   edx-lint
     #   pylint-celery
@@ -94,7 +94,7 @@ pylint-plugin-utils==0.7
     # via
     #   pylint-celery
     #   pylint-django
-pyparsing==3.0.7
+pyparsing==3.0.8
     # via
     #   -r requirements/test.txt
     #   packaging

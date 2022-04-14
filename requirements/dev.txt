@@ -25,7 +25,7 @@ charset-normalizer==2.0.12
     # via
     #   -r requirements/travis.txt
     #   requests
-click==8.1.1
+click==8.1.2
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/quality.txt
@@ -59,7 +59,7 @@ distlib==0.3.4
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==3.2.12
+django==3.2.13
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-i18n-tools
@@ -111,7 +111,7 @@ packaging==21.3
     #   -r requirements/travis.txt
     #   pytest
     #   tox
-pandas==1.4.1
+pandas==1.4.2
     # via -r requirements/quality.txt
 path==16.4.0
     # via edx-i18n-tools
@@ -123,7 +123,7 @@ pep517==0.12.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-pip-tools==6.5.1
+pip-tools==6.6.0
     # via -r requirements/pip-tools.txt
 platformdirs==2.5.1
     # via
@@ -152,7 +152,7 @@ pydocstyle==6.1.1
     # via -r requirements/quality.txt
 pygments==2.11.2
     # via diff-cover
-pylint==2.13.3
+pylint==2.13.5
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -172,7 +172,7 @@ pylint-plugin-utils==0.7
     #   -r requirements/quality.txt
     #   pylint-celery
     #   pylint-django
-pyparsing==3.0.7
+pyparsing==3.0.8
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -250,7 +250,7 @@ tomli==2.0.1
     #   pep517
     #   pylint
     #   pytest
-tox==3.24.5
+tox==3.25.0
     # via
     #   -r requirements/travis.txt
     #   tox-battery
@@ -265,7 +265,7 @@ urllib3==1.26.9
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.14.0
+virtualenv==20.14.1
     # via
     #   -r requirements/travis.txt
     #   tox
