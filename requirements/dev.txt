@@ -6,7 +6,7 @@
 #
 asgiref==3.5.1
     # via django
-astroid==2.11.4
+astroid==2.11.5
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -115,7 +115,7 @@ pandas==1.4.2
     # via -r requirements/quality.txt
 path==16.4.0
     # via edx-i18n-tools
-pbr==5.8.1
+pbr==5.9.0
     # via
     #   -r requirements/quality.txt
     #   stevedore
@@ -172,7 +172,7 @@ pylint-plugin-utils==0.7
     #   -r requirements/quality.txt
     #   pylint-celery
     #   pylint-django
-pyparsing==3.0.8
+pyparsing==3.0.9
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
