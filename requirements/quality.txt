@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.11.5
+astroid==2.11.6
     # via
     #   pylint
     #   pylint-celery
@@ -30,7 +30,7 @@ coverage[toml]==6.4.1
     #   pytest-cov
 dill==0.3.5.1
     # via pylint
-edx-lint==5.2.3
+edx-lint==5.2.4
     # via -r requirements/quality.in
 iniconfig==1.1.1
     # via
@@ -80,7 +80,7 @@ pycodestyle==2.8.0
     # via -r requirements/quality.in
 pydocstyle==6.1.1
     # via -r requirements/quality.in
-pylint==2.14.1
+pylint==2.14.2
     # via
     #   edx-lint
     #   pylint-celery
