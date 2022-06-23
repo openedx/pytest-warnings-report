@@ -10,7 +10,7 @@ attrs==21.4.0
     # via
     #   -r requirements/test.txt
     #   pytest
-babel==2.10.2
+babel==2.10.3
     # via sphinx
 bleach==5.0.0
     # via readme-renderer
@@ -57,7 +57,7 @@ markupsafe==2.1.1
     # via
     #   -r requirements/test.txt
     #   jinja2
-numpy==1.22.4
+numpy==1.23.0
     # via
     #   -r requirements/test.txt
     #   pandas
@@ -137,7 +137,7 @@ six==1.16.0
     #   python-dateutil
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==5.0.1
+sphinx==5.0.2
     # via
     #   -r requirements/doc.in
     #   edx-sphinx-theme
