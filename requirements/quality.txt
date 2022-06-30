@@ -60,7 +60,7 @@ packaging==21.3
     # via
     #   -r requirements/test.txt
     #   pytest
-pandas==1.4.2
+pandas==1.4.3
     # via -r requirements/test.txt
 pbr==5.9.0
     # via
@@ -80,7 +80,7 @@ pycodestyle==2.8.0
     # via -r requirements/quality.in
 pydocstyle==6.1.1
     # via -r requirements/quality.in
-pylint==2.14.3
+pylint==2.14.4
     # via
     #   edx-lint
     #   pylint-celery
