@@ -63,7 +63,7 @@ distlib==0.3.4
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==3.2.13
+django==3.2.14
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-i18n-tools
@@ -129,7 +129,7 @@ pep517==0.12.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pip-tools==6.7.0
+pip-tools==6.8.0
     # via -r requirements/pip-tools.txt
 platformdirs==2.5.2
     # via
@@ -258,7 +258,7 @@ tomli==2.0.1
     #   pep517
     #   pylint
     #   pytest
-tomlkit==0.11.0
+tomlkit==0.11.1
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -268,7 +268,7 @@ tox==3.25.1
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/travis.txt
-typing-extensions==4.2.0
+typing-extensions==4.3.0
     # via
     #   -r requirements/quality.txt
     #   astroid
