@@ -27,7 +27,7 @@ pytest==7.1.2
     #   pytest-metadata
 pytest-json-report==1.5.0
     # via -r requirements/base.in
-pytest-metadata==2.0.1
+pytest-metadata==2.0.2
     # via pytest-json-report
 python-dateutil==2.8.2
     # via pandas

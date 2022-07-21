@@ -59,7 +59,7 @@ dill==0.3.5.1
     # via
     #   -r requirements/quality.txt
     #   pylint
-distlib==0.3.4
+distlib==0.3.5
     # via
     #   -r requirements/travis.txt
     #   virtualenv
@@ -158,7 +158,7 @@ pydocstyle==6.1.1
     # via -r requirements/quality.txt
 pygments==2.12.0
     # via diff-cover
-pylint==2.14.4
+pylint==2.14.5
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -197,7 +197,7 @@ pytest-django==4.5.2
     # via -r requirements/quality.txt
 pytest-json-report==1.5.0
     # via -r requirements/quality.txt
-pytest-metadata==2.0.1
+pytest-metadata==2.0.2
     # via
     #   -r requirements/quality.txt
     #   pytest-json-report
