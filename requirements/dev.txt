@@ -11,7 +11,7 @@ astroid==2.11.7
     #   -r requirements/quality.txt
     #   pylint
     #   pylint-celery
-attrs==21.4.0
+attrs==22.1.0
     # via
     #   -r requirements/quality.txt
     #   pytest
@@ -63,7 +63,7 @@ distlib==0.3.5
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==3.2.14
+django==3.2.15
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-i18n-tools
@@ -125,7 +125,7 @@ pbr==5.9.0
     # via
     #   -r requirements/quality.txt
     #   stevedore
-pep517==0.12.0
+pep517==0.13.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
@@ -152,7 +152,7 @@ py==1.11.0
     #   -r requirements/travis.txt
     #   pytest
     #   tox
-pycodestyle==2.8.0
+pycodestyle==2.9.1
     # via -r requirements/quality.txt
 pydocstyle==6.1.1
     # via -r requirements/quality.txt

@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-attrs==21.4.0
+attrs==22.1.0
     # via pytest
 iniconfig==1.1.1
     # via pytest
