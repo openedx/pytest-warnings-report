@@ -12,7 +12,7 @@ numpy==1.23.2
     # via pandas
 packaging==21.3
     # via pytest
-pandas==1.4.3
+pandas==1.4.4
     # via -r requirements/base.in
 pluggy==1.0.0
     # via pytest
