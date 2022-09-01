@@ -6,7 +6,7 @@
 #
 asgiref==3.5.2
     # via django
-astroid==2.11.7
+astroid==2.12.5
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -59,7 +59,7 @@ dill==0.3.5.1
     # via
     #   -r requirements/quality.txt
     #   pylint
-distlib==0.3.5
+distlib==0.3.6
     # via
     #   -r requirements/travis.txt
     #   virtualenv
@@ -117,7 +117,7 @@ packaging==21.3
     #   build
     #   pytest
     #   tox
-pandas==1.4.3
+pandas==1.4.4
     # via -r requirements/quality.txt
 path==16.4.0
     # via edx-i18n-tools
@@ -158,7 +158,7 @@ pydocstyle==6.1.1
     # via -r requirements/quality.txt
 pygments==2.13.0
     # via diff-cover
-pylint==2.14.5
+pylint==2.15.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -276,7 +276,7 @@ urllib3==1.26.12
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.16.3
+virtualenv==20.16.4
     # via
     #   -r requirements/travis.txt
     #   tox

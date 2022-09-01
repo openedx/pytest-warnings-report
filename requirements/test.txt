@@ -30,7 +30,7 @@ packaging==21.3
     # via
     #   -r requirements/base.txt
     #   pytest
-pandas==1.4.3
+pandas==1.4.4
     # via -r requirements/base.txt
 pbr==5.10.0
     # via stevedore
