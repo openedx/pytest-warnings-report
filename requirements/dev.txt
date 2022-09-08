@@ -6,7 +6,7 @@
 #
 asgiref==3.5.2
     # via django
-astroid==2.12.5
+astroid==2.12.9
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -158,7 +158,7 @@ pydocstyle==6.1.1
     # via -r requirements/quality.txt
 pygments==2.13.0
     # via diff-cover
-pylint==2.15.0
+pylint==2.15.2
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -184,7 +184,7 @@ pyparsing==3.0.9
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
     #   packaging
-pytest==7.1.2
+pytest==7.1.3
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -276,7 +276,7 @@ urllib3==1.26.12
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.16.4
+virtualenv==20.16.5
     # via
     #   -r requirements/travis.txt
     #   tox
