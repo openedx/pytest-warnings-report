@@ -107,7 +107,7 @@ setup(
     maintainer='edX',
     maintainer_email='oscm@edx.org',
     license='AGPL',
-    url='https://github.com/edx/pytest-warnings-report',
+    url='https://github.com/openedx/pytest-warnings-report',
     description='A pytest plugin for generating warnings reports.',
     long_description=read('README.rst'),
     py_modules=['pytest_warnings_report'],
