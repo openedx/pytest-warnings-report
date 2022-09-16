@@ -30,7 +30,7 @@ coverage[toml]==6.4.4
     #   pytest-cov
 dill==0.3.5.1
     # via pylint
-edx-lint==5.2.4
+edx-lint==5.2.5
     # via -r requirements/quality.in
 iniconfig==1.1.1
     # via
@@ -52,7 +52,7 @@ markupsafe==2.1.1
     #   jinja2
 mccabe==0.7.0
     # via pylint
-numpy==1.23.2
+numpy==1.23.3
     # via
     #   -r requirements/test.txt
     #   pandas
