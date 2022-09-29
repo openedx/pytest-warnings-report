@@ -19,7 +19,7 @@ build==0.8.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-certifi==2022.9.14
+certifi==2022.9.24
     # via
     #   -r requirements/travis.txt
     #   requests
@@ -119,7 +119,7 @@ packaging==21.3
     #   tox
 pandas==1.5.0
     # via -r requirements/quality.txt
-path==16.4.0
+path==16.5.0
     # via edx-i18n-tools
 pbr==5.10.0
     # via
@@ -191,7 +191,7 @@ pytest==7.1.3
     #   pytest-django
     #   pytest-json-report
     #   pytest-metadata
-pytest-cov==3.0.0
+pytest-cov==4.0.0
     # via -r requirements/quality.txt
 pytest-django==4.5.2
     # via -r requirements/quality.txt
@@ -234,7 +234,7 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/quality.txt
     #   pydocstyle
-sqlparse==0.4.2
+sqlparse==0.4.3
     # via django
 stevedore==4.0.0
     # via
@@ -255,7 +255,7 @@ tomli==2.0.1
     #   pylint
     #   pytest
     #   tox
-tomlkit==0.11.4
+tomlkit==0.11.5
     # via
     #   -r requirements/quality.txt
     #   pylint
