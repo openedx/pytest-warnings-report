@@ -8,7 +8,7 @@ attrs==22.1.0
     # via pytest
 iniconfig==1.1.1
     # via pytest
-numpy==1.23.3
+numpy==1.23.4
     # via pandas
 packaging==21.3
     # via pytest
@@ -31,7 +31,7 @@ pytest-metadata==2.0.2
     # via pytest-json-report
 python-dateutil==2.8.2
     # via pandas
-pytz==2022.2.1
+pytz==2022.4
     # via pandas
 six==1.16.0
     # via python-dateutil
