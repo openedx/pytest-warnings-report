@@ -38,7 +38,7 @@ docutils==0.19
     #   sphinx
 edx-sphinx-theme==3.0.0
     # via -r requirements/doc.in
-exceptiongroup==1.0.1
+exceptiongroup==1.0.4
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -46,7 +46,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==5.0.0
+importlib-metadata==5.1.0
     # via sphinx
 iniconfig==1.1.1
     # via
@@ -61,7 +61,7 @@ markupsafe==2.1.1
     # via
     #   -r requirements/test.txt
     #   jinja2
-numpy==1.23.4
+numpy==1.23.5
     # via
     #   -r requirements/test.txt
     #   pandas
@@ -70,7 +70,7 @@ packaging==21.3
     #   -r requirements/test.txt
     #   pytest
     #   sphinx
-pandas==1.5.1
+pandas==1.5.2
     # via -r requirements/test.txt
 pbr==5.11.0
     # via
@@ -110,7 +110,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   pandas
-python-slugify==6.1.2
+python-slugify==7.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -153,7 +153,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-stevedore==4.1.0
+stevedore==4.1.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -168,9 +168,9 @@ tomli==2.0.1
     #   coverage
     #   doc8
     #   pytest
-urllib3==1.26.12
+urllib3==1.26.13
     # via requests
 webencodings==0.5.1
     # via bleach
-zipp==3.10.0
+zipp==3.11.0
     # via importlib-metadata
