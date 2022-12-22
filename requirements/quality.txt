@@ -8,7 +8,7 @@ astroid==2.12.13
     # via
     #   pylint
     #   pylint-celery
-attrs==22.1.0
+attrs==22.2.0
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -24,7 +24,7 @@ code-annotations==1.3.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==6.5.0
+coverage[toml]==7.0.0
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -40,7 +40,7 @@ iniconfig==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==5.10.1
+isort==5.11.4
     # via
     #   -r requirements/quality.in
     #   pylint
@@ -56,7 +56,7 @@ markupsafe==2.1.1
     #   jinja2
 mccabe==0.7.0
     # via pylint
-numpy==1.23.5
+numpy==1.24.0
     # via
     #   -r requirements/test.txt
     #   pandas
@@ -80,7 +80,7 @@ pycodestyle==2.10.0
     # via -r requirements/quality.in
 pydocstyle==6.1.1
     # via -r requirements/quality.in
-pylint==2.15.8
+pylint==2.15.9
     # via
     #   edx-lint
     #   pylint-celery
@@ -119,7 +119,7 @@ python-slugify==7.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
-pytz==2022.6
+pytz==2022.7
     # via
     #   -r requirements/test.txt
     #   pandas
