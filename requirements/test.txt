@@ -12,13 +12,13 @@ click==8.1.3
     # via code-annotations
 code-annotations==1.3.0
     # via -r requirements/test.in
-coverage[toml]==7.0.3
+coverage[toml]==7.0.5
     # via pytest-cov
 exceptiongroup==1.1.0
     # via
     #   -r requirements/base.txt
     #   pytest
-iniconfig==1.1.1
+iniconfig==2.0.0
     # via
     #   -r requirements/base.txt
     #   pytest
@@ -30,13 +30,13 @@ numpy==1.24.1
     # via
     #   -r requirements/base.txt
     #   pandas
-packaging==22.0
+packaging==23.0
     # via
     #   -r requirements/base.txt
     #   pytest
 pandas==1.5.2
     # via -r requirements/base.txt
-pbr==5.11.0
+pbr==5.11.1
     # via stevedore
 pluggy==1.0.0
     # via
