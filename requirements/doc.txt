@@ -106,7 +106,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   pandas
-python-slugify==7.0.0
+python-slugify==8.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -142,7 +142,7 @@ sphinxcontrib-applehelp==1.0.4
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-htmlhelp==2.0.1
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
@@ -169,5 +169,5 @@ urllib3==1.26.14
     # via requests
 webencodings==0.5.1
     # via bleach
-zipp==3.11.0
+zipp==3.12.0
     # via importlib-metadata
