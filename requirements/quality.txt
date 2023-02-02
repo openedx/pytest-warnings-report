@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.13.3
+astroid==2.14.1
     # via
     #   pylint
     #   pylint-celery
@@ -40,7 +40,7 @@ iniconfig==2.0.0
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==5.11.4
+isort==5.12.0
     # via
     #   -r requirements/quality.in
     #   pylint
@@ -80,7 +80,7 @@ pycodestyle==2.10.0
     # via -r requirements/quality.in
 pydocstyle==6.3.0
     # via -r requirements/quality.in
-pylint==2.15.10
+pylint==2.16.0
     # via
     #   edx-lint
     #   pylint-celery
@@ -115,7 +115,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   pandas
-python-slugify==7.0.0
+python-slugify==8.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
