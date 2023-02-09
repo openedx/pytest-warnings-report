@@ -10,7 +10,7 @@ exceptiongroup==1.1.0
     # via pytest
 iniconfig==2.0.0
     # via pytest
-numpy==1.24.1
+numpy==1.24.2
     # via pandas
 packaging==23.0
     # via pytest

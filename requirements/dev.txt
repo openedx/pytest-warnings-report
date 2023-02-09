@@ -109,7 +109,7 @@ mccabe==0.7.0
     # via
     #   -r requirements/quality.txt
     #   pylint
-numpy==1.24.1
+numpy==1.24.2
     # via
     #   -r requirements/quality.txt
     #   pandas
@@ -131,7 +131,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==6.12.2
     # via -r requirements/pip-tools.txt
-platformdirs==2.6.2
+platformdirs==3.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -156,7 +156,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.14.0
     # via diff-cover
-pylint==2.16.0
+pylint==2.16.1
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -271,7 +271,7 @@ urllib3==1.26.14
     # via
     #   -r requirements/travis.txt
     #   requests
-virtualenv==20.17.1
+virtualenv==20.19.0
     # via
     #   -r requirements/travis.txt
     #   tox
