@@ -56,7 +56,7 @@ markupsafe==2.1.2
     #   jinja2
 mccabe==0.7.0
     # via pylint
-numpy==1.24.1
+numpy==1.24.2
     # via
     #   -r requirements/test.txt
     #   pandas
@@ -70,7 +70,7 @@ pbr==5.11.1
     # via
     #   -r requirements/test.txt
     #   stevedore
-platformdirs==2.6.2
+platformdirs==3.0.0
     # via pylint
 pluggy==1.0.0
     # via
@@ -80,7 +80,7 @@ pycodestyle==2.10.0
     # via -r requirements/quality.in
 pydocstyle==6.3.0
     # via -r requirements/quality.in
-pylint==2.16.0
+pylint==2.16.1
     # via
     #   edx-lint
     #   pylint-celery
