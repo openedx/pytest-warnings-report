@@ -150,7 +150,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-stevedore==4.1.1
+stevedore==5.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -169,5 +169,5 @@ urllib3==1.26.14
     # via requests
 webencodings==0.5.1
     # via bleach
-zipp==3.12.1
+zipp==3.13.0
     # via importlib-metadata

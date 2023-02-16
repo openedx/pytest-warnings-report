@@ -6,7 +6,7 @@
 #
 asgiref==3.6.0
     # via django
-astroid==2.14.1
+astroid==2.14.2
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -63,13 +63,13 @@ distlib==0.3.6
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==3.2.17
+django==3.2.18
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-i18n-tools
 edx-i18n-tools==0.9.2
     # via -r requirements/dev.in
-edx-lint==5.3.0
+edx-lint==5.3.2
     # via -r requirements/quality.txt
 exceptiongroup==1.1.0
     # via
@@ -156,7 +156,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.14.0
     # via diff-cover
-pylint==2.16.1
+pylint==2.16.2
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -232,7 +232,7 @@ snowballstemmer==2.2.0
     #   pydocstyle
 sqlparse==0.4.3
     # via django
-stevedore==4.1.1
+stevedore==5.0.0
     # via
     #   -r requirements/quality.txt
     #   code-annotations
@@ -262,7 +262,7 @@ tox==3.28.0
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/travis.txt
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via
     #   -r requirements/quality.txt
     #   astroid
