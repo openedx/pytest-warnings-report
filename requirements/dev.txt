@@ -6,7 +6,7 @@
 #
 asgiref==3.6.0
     # via django
-astroid==2.14.2
+astroid==2.15.0
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -25,7 +25,7 @@ certifi==2022.12.7
     #   requests
 chardet==5.1.0
     # via diff-cover
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via
     #   -r requirements/travis.txt
     #   requests
@@ -131,7 +131,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==6.12.3
     # via -r requirements/pip-tools.txt
-platformdirs==3.0.0
+platformdirs==3.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -156,7 +156,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.14.0
     # via diff-cover
-pylint==2.16.2
+pylint==2.17.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -180,7 +180,7 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==7.2.1
+pytest==7.2.2
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
