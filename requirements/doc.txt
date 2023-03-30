@@ -24,7 +24,7 @@ click==8.1.3
     #   code-annotations
 code-annotations==1.3.0
     # via -r requirements/test.txt
-coverage[toml]==7.2.1
+coverage[toml]==7.2.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -38,7 +38,7 @@ docutils==0.19
     #   sphinx
 edx-sphinx-theme==3.1.0
     # via -r requirements/doc.in
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -46,7 +46,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.0.0
+importlib-metadata==6.1.0
     # via sphinx
 iniconfig==2.0.0
     # via
@@ -110,7 +110,7 @@ python-slugify==8.0.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
-pytz==2022.7.1
+pytz==2023.3
     # via
     #   -r requirements/test.txt
     #   babel
@@ -165,7 +165,7 @@ tomli==2.0.1
     #   coverage
     #   doc8
     #   pytest
-urllib3==1.26.14
+urllib3==1.26.15
     # via requests
 webencodings==0.5.1
     # via bleach
