@@ -4,21 +4,19 @@
 #
 #    make upgrade
 #
-attrs==22.2.0
-    # via pytest
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via pytest
 iniconfig==2.0.0
     # via pytest
 numpy==1.24.2
     # via pandas
-packaging==23.0
+packaging==23.1
     # via pytest
-pandas==1.5.3
+pandas==2.0.0
     # via -r requirements/base.in
 pluggy==1.0.0
     # via pytest
-pytest==7.2.2
+pytest==7.3.0
     # via
     #   -r requirements/base.in
     #   pytest-json-report
@@ -29,9 +27,11 @@ pytest-metadata==2.0.4
     # via pytest-json-report
 python-dateutil==2.8.2
     # via pandas
-pytz==2022.7.1
+pytz==2023.3
     # via pandas
 six==1.16.0
     # via python-dateutil
 tomli==2.0.1
     # via pytest
+tzdata==2023.3
+    # via pandas

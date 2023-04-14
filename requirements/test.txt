@@ -4,17 +4,13 @@
 #
 #    make upgrade
 #
-attrs==22.2.0
-    # via
-    #   -r requirements/base.txt
-    #   pytest
 click==8.1.3
     # via code-annotations
 code-annotations==1.3.0
     # via -r requirements/test.in
-coverage[toml]==7.2.1
+coverage[toml]==7.2.3
     # via pytest-cov
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via
     #   -r requirements/base.txt
     #   pytest
@@ -30,11 +26,11 @@ numpy==1.24.2
     # via
     #   -r requirements/base.txt
     #   pandas
-packaging==23.0
+packaging==23.1
     # via
     #   -r requirements/base.txt
     #   pytest
-pandas==1.5.3
+pandas==2.0.0
     # via -r requirements/base.txt
 pbr==5.11.1
     # via stevedore
@@ -42,7 +38,7 @@ pluggy==1.0.0
     # via
     #   -r requirements/base.txt
     #   pytest
-pytest==7.2.2
+pytest==7.3.0
     # via
     #   -r requirements/base.txt
     #   pytest-cov
@@ -65,7 +61,7 @@ python-dateutil==2.8.2
     #   pandas
 python-slugify==8.0.1
     # via code-annotations
-pytz==2022.7.1
+pytz==2023.3
     # via
     #   -r requirements/base.txt
     #   pandas
@@ -84,3 +80,7 @@ tomli==2.0.1
     #   -r requirements/base.txt
     #   coverage
     #   pytest
+tzdata==2023.3
+    # via
+    #   -r requirements/base.txt
+    #   pandas
