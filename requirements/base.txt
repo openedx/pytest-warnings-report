@@ -16,7 +16,7 @@ pandas==2.0.0
     # via -r requirements/base.in
 pluggy==1.0.0
     # via pytest
-pytest==7.3.0
+pytest==7.3.1
     # via
     #   -r requirements/base.in
     #   pytest-json-report

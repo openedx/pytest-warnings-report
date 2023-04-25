@@ -6,7 +6,7 @@
 #
 asgiref==3.6.0
     # via django
-astroid==2.15.2
+astroid==2.15.3
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -59,7 +59,7 @@ exceptiongroup==1.1.1
     # via
     #   -r requirements/quality.txt
     #   pytest
-filelock==3.11.0
+filelock==3.12.0
     # via
     #   -r requirements/travis.txt
     #   tox
@@ -134,7 +134,7 @@ pycodestyle==2.10.0
     # via -r requirements/quality.txt
 pydocstyle==6.3.0
     # via -r requirements/quality.txt
-pygments==2.15.0
+pygments==2.15.1
     # via diff-cover
 pylint==2.17.2
     # via
@@ -160,7 +160,7 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==7.3.0
+pytest==7.3.1
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -206,7 +206,7 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/quality.txt
     #   pydocstyle
-sqlparse==0.4.3
+sqlparse==0.4.4
     # via django
 stevedore==5.0.0
     # via
@@ -247,7 +247,7 @@ tzdata==2023.3
     # via
     #   -r requirements/quality.txt
     #   pandas
-virtualenv==20.21.0
+virtualenv==20.22.0
     # via
     #   -r requirements/travis.txt
     #   tox

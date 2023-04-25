@@ -42,7 +42,7 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.3.0
+importlib-metadata==6.5.0
     # via sphinx
 iniconfig==2.0.0
     # via
@@ -76,12 +76,12 @@ pluggy==1.0.0
     # via
     #   -r requirements/test.txt
     #   pytest
-pygments==2.15.0
+pygments==2.15.1
     # via
     #   doc8
     #   readme-renderer
     #   sphinx
-pytest==7.3.0
+pytest==7.3.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
