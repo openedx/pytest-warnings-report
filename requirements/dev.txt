@@ -136,7 +136,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.15.1
     # via diff-cover
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   -r requirements/quality.txt
     #   edx-lint
