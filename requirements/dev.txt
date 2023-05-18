@@ -6,7 +6,7 @@
 #
 asgiref==3.6.0
     # via django
-astroid==2.15.4
+astroid==2.15.5
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -111,7 +111,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==6.13.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.5.0
+platformdirs==3.5.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -136,7 +136,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.15.1
     # via diff-cover
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -151,7 +151,7 @@ pylint-django==2.5.3
     # via
     #   -r requirements/quality.txt
     #   edx-lint
-pylint-plugin-utils==0.7
+pylint-plugin-utils==0.8.1
     # via
     #   -r requirements/quality.txt
     #   pylint-celery
@@ -208,7 +208,7 @@ snowballstemmer==2.2.0
     #   pydocstyle
 sqlparse==0.4.4
     # via django
-stevedore==5.0.0
+stevedore==5.1.0
     # via
     #   -r requirements/quality.txt
     #   code-annotations

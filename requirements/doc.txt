@@ -10,7 +10,7 @@ babel==2.12.1
     # via sphinx
 bleach==6.0.0
     # via readme-renderer
-certifi==2022.12.7
+certifi==2023.5.7
     # via requests
 charset-normalizer==3.1.0
     # via requests
@@ -117,7 +117,7 @@ pyyaml==6.0
     #   code-annotations
 readme-renderer==37.3
     # via -r requirements/doc.in
-requests==2.29.0
+requests==2.30.0
     # via sphinx
 restructuredtext-lint==1.4.0
     # via doc8
@@ -146,7 +146,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-stevedore==5.0.0
+stevedore==5.1.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -165,7 +165,7 @@ tzdata==2023.3
     # via
     #   -r requirements/test.txt
     #   pandas
-urllib3==1.26.15
+urllib3==2.0.2
     # via requests
 webencodings==0.5.1
     # via bleach
