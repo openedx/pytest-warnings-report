@@ -12,7 +12,7 @@ numpy==1.24.3
     # via pandas
 packaging==23.1
     # via pytest
-pandas==2.0.1
+pandas==2.0.2
     # via -r requirements/base.in
 pluggy==1.0.0
     # via pytest
@@ -23,7 +23,7 @@ pytest==7.3.1
     #   pytest-metadata
 pytest-json-report==1.5.0
     # via -r requirements/base.in
-pytest-metadata==2.0.4
+pytest-metadata==3.0.0
     # via pytest-json-report
 python-dateutil==2.8.2
     # via pandas

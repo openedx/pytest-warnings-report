@@ -4,9 +4,9 @@
 #
 #    make upgrade
 #
-asgiref==3.6.0
+asgiref==3.7.2
     # via django
-astroid==2.15.4
+astroid==2.15.5
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -33,7 +33,7 @@ code-annotations==1.3.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
-coverage[toml]==7.2.5
+coverage[toml]==7.2.7
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -101,7 +101,7 @@ packaging==23.1
     #   build
     #   pytest
     #   tox
-pandas==2.0.1
+pandas==2.0.2
     # via -r requirements/quality.txt
 path==16.6.0
     # via edx-i18n-tools
@@ -111,7 +111,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==6.13.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.5.0
+platformdirs==3.5.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -136,7 +136,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.15.1
     # via diff-cover
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -151,7 +151,7 @@ pylint-django==2.5.3
     # via
     #   -r requirements/quality.txt
     #   edx-lint
-pylint-plugin-utils==0.7
+pylint-plugin-utils==0.8.2
     # via
     #   -r requirements/quality.txt
     #   pylint-celery
@@ -167,13 +167,13 @@ pytest==7.3.1
     #   pytest-django
     #   pytest-json-report
     #   pytest-metadata
-pytest-cov==4.0.0
+pytest-cov==4.1.0
     # via -r requirements/quality.txt
 pytest-django==4.5.2
     # via -r requirements/quality.txt
 pytest-json-report==1.5.0
     # via -r requirements/quality.txt
-pytest-metadata==2.0.4
+pytest-metadata==3.0.0
     # via
     #   -r requirements/quality.txt
     #   pytest-json-report
@@ -208,7 +208,7 @@ snowballstemmer==2.2.0
     #   pydocstyle
 sqlparse==0.4.4
     # via django
-stevedore==5.0.0
+stevedore==5.1.0
     # via
     #   -r requirements/quality.txt
     #   code-annotations
@@ -238,7 +238,7 @@ tox==3.28.0
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/travis.txt
-typing-extensions==4.5.0
+typing-extensions==4.6.2
     # via
     #   -r requirements/quality.txt
     #   astroid
