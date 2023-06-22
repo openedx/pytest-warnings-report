@@ -14,7 +14,7 @@ packaging==23.1
     # via pytest
 pandas==2.0.2
     # via -r requirements/base.in
-pluggy==1.0.0
+pluggy==1.2.0
     # via pytest
 pytest==7.3.2
     # via
