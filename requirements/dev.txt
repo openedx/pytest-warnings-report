@@ -89,7 +89,7 @@ mccabe==0.7.0
     # via
     #   -r requirements/quality.txt
     #   pylint
-numpy==1.24.3
+numpy==1.24.4
     # via
     #   -r requirements/quality.txt
     #   pandas
@@ -101,7 +101,7 @@ packaging==23.1
     #   build
     #   pytest
     #   tox
-pandas==2.0.2
+pandas==2.0.3
     # via -r requirements/quality.txt
 path==16.6.0
     # via edx-i18n-tools
@@ -111,7 +111,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==6.13.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.7.0
+platformdirs==3.8.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -160,7 +160,7 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==7.3.2
+pytest==7.4.0
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -238,7 +238,7 @@ tox==3.28.0
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/travis.txt
-typing-extensions==4.6.3
+typing-extensions==4.7.0
     # via
     #   -r requirements/quality.txt
     #   astroid
