@@ -8,15 +8,15 @@ exceptiongroup==1.1.1
     # via pytest
 iniconfig==2.0.0
     # via pytest
-numpy==1.24.3
+numpy==1.24.4
     # via pandas
 packaging==23.1
     # via pytest
-pandas==2.0.2
+pandas==2.0.3
     # via -r requirements/base.in
 pluggy==1.2.0
     # via pytest
-pytest==7.3.2
+pytest==7.4.0
     # via
     #   -r requirements/base.in
     #   pytest-json-report
