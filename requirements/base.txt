@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-exceptiongroup==1.1.1
+exceptiongroup==1.1.2
     # via pytest
 iniconfig==2.0.0
     # via pytest
