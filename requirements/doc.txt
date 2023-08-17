@@ -26,7 +26,7 @@ click==8.1.6
     #   code-annotations
 code-annotations==1.5.0
     # via -r requirements/test.txt
-coverage[toml]==7.2.7
+coverage[toml]==7.3.0
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -39,7 +39,7 @@ docutils==0.19
     #   readme-renderer
     #   restructuredtext-lint
     #   sphinx
-exceptiongroup==1.1.2
+exceptiongroup==1.1.3
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -84,7 +84,7 @@ pluggy==1.2.0
     #   pytest
 pydata-sphinx-theme==0.13.3
     # via sphinx-book-theme
-pygments==2.15.1
+pygments==2.16.1
     # via
     #   accessible-pygments
     #   doc8
