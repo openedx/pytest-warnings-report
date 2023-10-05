@@ -33,7 +33,7 @@ code-annotations==1.5.0
     # via
     #   -r requirements/quality.txt
     #   edx-lint
-coverage[toml]==7.3.1
+coverage[toml]==7.3.2
     # via
     #   -r requirements/quality.txt
     #   pytest-cov
@@ -47,7 +47,7 @@ distlib==0.3.7
     # via
     #   -r requirements/travis.txt
     #   virtualenv
-django==3.2.21
+django==3.2.22
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-i18n-tools
@@ -97,7 +97,7 @@ numpy==1.24.4
     # via
     #   -r requirements/quality.txt
     #   pandas
-packaging==23.1
+packaging==23.2
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/quality.txt
@@ -115,7 +115,7 @@ pbr==5.11.1
     #   stevedore
 pip-tools==7.3.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.10.0
+platformdirs==3.11.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/travis.txt
@@ -140,7 +140,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.16.1
     # via diff-cover
-pylint==2.17.6
+pylint==2.17.7
     # via
     #   -r requirements/quality.txt
     #   edx-lint
