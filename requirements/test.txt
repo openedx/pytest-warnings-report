@@ -8,7 +8,7 @@ click==8.1.7
     # via code-annotations
 code-annotations==1.5.0
     # via -r requirements/test.in
-coverage[toml]==7.3.1
+coverage[toml]==7.3.2
     # via pytest-cov
 exceptiongroup==1.1.3
     # via
@@ -26,7 +26,7 @@ numpy==1.24.4
     # via
     #   -r requirements/base.txt
     #   pandas
-packaging==23.1
+packaging==23.2
     # via
     #   -r requirements/base.txt
     #   pytest

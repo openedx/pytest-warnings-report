@@ -8,7 +8,7 @@ accessible-pygments==0.0.4
     # via pydata-sphinx-theme
 alabaster==0.7.13
     # via sphinx
-babel==2.12.1
+babel==2.13.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -16,7 +16,7 @@ beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
 certifi==2023.7.22
     # via requests
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via requests
 click==8.1.7
     # via
@@ -24,7 +24,7 @@ click==8.1.7
     #   code-annotations
 code-annotations==1.5.0
     # via -r requirements/test.txt
-coverage[toml]==7.3.1
+coverage[toml]==7.3.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -66,7 +66,7 @@ numpy==1.24.4
     # via
     #   -r requirements/test.txt
     #   pandas
-packaging==23.1
+packaging==23.2
     # via
     #   -r requirements/test.txt
     #   pydata-sphinx-theme
@@ -179,7 +179,7 @@ tzdata==2023.3
     # via
     #   -r requirements/test.txt
     #   pandas
-urllib3==2.0.5
+urllib3==2.0.6
     # via requests
 zipp==3.17.0
     # via importlib-metadata
