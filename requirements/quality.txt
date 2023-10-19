@@ -23,6 +23,7 @@ code-annotations==1.5.0
 coverage[toml]==7.3.2
     # via
     #   -r requirements/test.txt
+    #   coverage
     #   pytest-cov
 dill==0.3.7
     # via pylint
@@ -72,7 +73,7 @@ pluggy==1.3.0
     # via
     #   -r requirements/test.txt
     #   pytest
-pycodestyle==2.11.0
+pycodestyle==2.11.1
     # via -r requirements/quality.in
 pydocstyle==6.3.0
     # via -r requirements/quality.in

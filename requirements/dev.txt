@@ -36,8 +36,9 @@ code-annotations==1.5.0
 coverage[toml]==7.3.2
     # via
     #   -r requirements/quality.txt
+    #   coverage
     #   pytest-cov
-diff-cover==7.7.0
+diff-cover==8.0.0
     # via -r requirements/dev.in
 dill==0.3.7
     # via
@@ -136,7 +137,7 @@ py==1.11.0
     # via
     #   -r requirements/travis.txt
     #   tox
-pycodestyle==2.11.0
+pycodestyle==2.11.1
     # via -r requirements/quality.txt
 pydocstyle==6.3.0
     # via -r requirements/quality.txt
