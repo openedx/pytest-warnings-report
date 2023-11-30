@@ -29,7 +29,7 @@ dill==0.3.7
     # via pylint
 edx-lint==5.3.6
     # via -r requirements/quality.in
-exceptiongroup==1.1.3
+exceptiongroup==1.2.0
     # via
     #   -r requirements/test.txt
     #   pytest
