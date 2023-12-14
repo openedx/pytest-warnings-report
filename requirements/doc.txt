@@ -8,7 +8,7 @@ accessible-pygments==0.0.4
     # via pydata-sphinx-theme
 alabaster==0.7.13
     # via sphinx
-babel==2.13.1
+babel==2.14.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -174,7 +174,7 @@ tomli==2.0.1
     #   coverage
     #   doc8
     #   pytest
-typing-extensions==4.8.0
+typing-extensions==4.9.0
     # via pydata-sphinx-theme
 tzdata==2023.3
     # via

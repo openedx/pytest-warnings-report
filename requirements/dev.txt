@@ -6,7 +6,7 @@
 #
 asgiref==3.7.2
     # via django
-astroid==3.0.1
+astroid==3.0.2
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -55,7 +55,7 @@ dill==0.3.7
     # via
     #   -r requirements/quality.txt
     #   pylint
-distlib==0.3.7
+distlib==0.3.8
     # via
     #   -r requirements/ci.txt
     #   virtualenv
@@ -84,7 +84,7 @@ iniconfig==2.0.0
     # via
     #   -r requirements/quality.txt
     #   pytest
-isort==5.12.0
+isort==5.13.2
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -148,7 +148,7 @@ pydocstyle==6.3.0
     # via -r requirements/quality.txt
 pygments==2.17.2
     # via diff-cover
-pylint==3.0.2
+pylint==3.0.3
     # via
     #   -r requirements/quality.txt
     #   edx-lint
@@ -249,7 +249,7 @@ tomlkit==0.12.3
     #   pylint
 tox==4.11.4
     # via -r requirements/ci.txt
-typing-extensions==4.8.0
+typing-extensions==4.9.0
     # via
     #   -r requirements/quality.txt
     #   asgiref
