@@ -23,11 +23,11 @@ pytest==8.0.0
     #   pytest-metadata
 pytest-json-report==1.5.0
     # via -r requirements/base.in
-pytest-metadata==3.0.0
+pytest-metadata==3.1.0
     # via pytest-json-report
 python-dateutil==2.8.2
     # via pandas
-pytz==2023.4
+pytz==2024.1
     # via pandas
 six==1.16.0
     # via python-dateutil
