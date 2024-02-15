@@ -102,7 +102,7 @@ pytest-django==4.8.0
     # via -r requirements/test.txt
 pytest-json-report==1.5.0
     # via -r requirements/test.txt
-pytest-metadata==3.1.0
+pytest-metadata==3.1.1
     # via
     #   -r requirements/test.txt
     #   pytest-json-report
@@ -110,7 +110,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   pandas
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -149,7 +149,7 @@ typing-extensions==4.9.0
     # via
     #   astroid
     #   pylint
-tzdata==2023.4
+tzdata==2024.1
     # via
     #   -r requirements/test.txt
     #   pandas
