@@ -24,10 +24,9 @@ click==8.1.7
     #   code-annotations
 code-annotations==1.6.0
     # via -r requirements/test.txt
-coverage[toml]==7.4.1
+coverage[toml]==7.4.2
     # via
     #   -r requirements/test.txt
-    #   coverage
     #   pytest-cov
 doc8==1.1.1
     # via -r requirements/doc.in
@@ -92,7 +91,7 @@ pygments==2.17.2
     #   pydata-sphinx-theme
     #   readme-renderer
     #   sphinx
-pytest==8.0.0
+pytest==8.0.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -180,7 +179,7 @@ tzdata==2024.1
     # via
     #   -r requirements/test.txt
     #   pandas
-urllib3==2.2.0
+urllib3==2.2.1
     # via requests
 zipp==3.17.0
     # via importlib-metadata
