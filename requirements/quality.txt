@@ -20,10 +20,9 @@ code-annotations==1.6.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==7.4.1
+coverage[toml]==7.4.2
     # via
     #   -r requirements/test.txt
-    #   coverage
     #   pytest-cov
 dill==0.3.8
     # via pylint
@@ -89,7 +88,7 @@ pylint-plugin-utils==0.8.2
     # via
     #   pylint-celery
     #   pylint-django
-pytest==8.0.0
+pytest==8.0.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov

@@ -8,10 +8,8 @@ click==8.1.7
     # via code-annotations
 code-annotations==1.6.0
     # via -r requirements/test.in
-coverage[toml]==7.4.1
-    # via
-    #   coverage
-    #   pytest-cov
+coverage[toml]==7.4.2
+    # via pytest-cov
 exceptiongroup==1.2.0
     # via
     #   -r requirements/base.txt
@@ -40,7 +38,7 @@ pluggy==1.4.0
     # via
     #   -r requirements/base.txt
     #   pytest
-pytest==8.0.0
+pytest==8.0.1
     # via
     #   -r requirements/base.txt
     #   pytest-cov
