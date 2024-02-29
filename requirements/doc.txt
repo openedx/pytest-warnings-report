@@ -24,7 +24,7 @@ click==8.1.7
     #   code-annotations
 code-annotations==1.6.0
     # via -r requirements/test.txt
-coverage[toml]==7.4.2
+coverage[toml]==7.4.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -91,7 +91,7 @@ pygments==2.17.2
     #   pydata-sphinx-theme
     #   readme-renderer
     #   sphinx
-pytest==8.0.1
+pytest==8.0.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -125,7 +125,7 @@ pyyaml==6.0.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
-readme-renderer==42.0
+readme-renderer==43.0
     # via -r requirements/doc.in
 requests==2.31.0
     # via sphinx
@@ -158,7 +158,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-stevedore==5.1.0
+stevedore==5.2.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -173,7 +173,7 @@ tomli==2.0.1
     #   coverage
     #   doc8
     #   pytest
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via pydata-sphinx-theme
 tzdata==2024.1
     # via
