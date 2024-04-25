@@ -4,19 +4,19 @@
 #
 #    make upgrade
 #
-exceptiongroup==1.2.0
+exceptiongroup==1.2.1
     # via pytest
 iniconfig==2.0.0
     # via pytest
 numpy==1.24.4
     # via pandas
-packaging==23.2
+packaging==24.0
     # via pytest
 pandas==2.0.3
     # via -r requirements/base.in
-pluggy==1.4.0
+pluggy==1.5.0
     # via pytest
-pytest==8.0.2
+pytest==8.1.1
     # via
     #   -r requirements/base.in
     #   pytest-json-report
@@ -25,7 +25,7 @@ pytest-json-report==1.5.0
     # via -r requirements/base.in
 pytest-metadata==3.1.1
     # via pytest-json-report
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via pandas
 pytz==2024.1
     # via pandas
