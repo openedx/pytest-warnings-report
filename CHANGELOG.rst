@@ -14,9 +14,16 @@ Change Log
 Unreleased
 ~~~~~~~~~~
 
-*
+[0.1.0] - 2025-04-30
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[0.1.0] - 2020-01-14
+Added
+_____
+
+* Added support for Python 3.11 and 3.12
+* Dropped support for Python versions older than 3.11
+
+[0.0.1] - 2020-01-14
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Added
