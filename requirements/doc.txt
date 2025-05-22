@@ -16,15 +16,15 @@ beautifulsoup4==4.13.4
     # via pydata-sphinx-theme
 certifi==2025.4.26
     # via requests
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
-click==8.1.8
+click==8.2.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
 code-annotations==2.3.0
     # via -r requirements/test.txt
-coverage[toml]==7.8.0
+coverage[toml]==7.8.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -56,7 +56,7 @@ markupsafe==3.0.2
     #   jinja2
 nh3==0.2.21
     # via readme-renderer
-numpy==2.2.5
+numpy==2.2.6
     # via
     #   -r requirements/test.txt
     #   pandas
@@ -72,7 +72,7 @@ pbr==6.1.1
     # via
     #   -r requirements/test.txt
     #   stevedore
-pluggy==1.5.0
+pluggy==1.6.0
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -130,7 +130,7 @@ six==1.17.0
     # via
     #   -r requirements/test.txt
     #   python-dateutil
-snowballstemmer==2.2.0
+snowballstemmer==3.0.1
     # via sphinx
 soupsieve==2.7
     # via beautifulsoup4
