@@ -4,11 +4,11 @@
 #
 #    make upgrade
 #
-astroid==3.3.9
+astroid==3.3.10
     # via
     #   pylint
     #   pylint-celery
-click==8.1.8
+click==8.2.1
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -20,7 +20,7 @@ code-annotations==2.3.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==7.8.0
+coverage[toml]==7.8.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -46,7 +46,7 @@ markupsafe==3.0.2
     #   jinja2
 mccabe==0.7.0
     # via pylint
-numpy==2.2.5
+numpy==2.2.6
     # via
     #   -r requirements/test.txt
     #   pandas
@@ -60,9 +60,9 @@ pbr==6.1.1
     # via
     #   -r requirements/test.txt
     #   stevedore
-platformdirs==4.3.7
+platformdirs==4.3.8
     # via pylint
-pluggy==1.5.0
+pluggy==1.6.0
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -70,7 +70,7 @@ pycodestyle==2.13.0
     # via -r requirements/quality.in
 pydocstyle==6.3.0
     # via -r requirements/quality.in
-pylint==3.3.6
+pylint==3.3.7
     # via
     #   edx-lint
     #   pylint-celery
@@ -122,7 +122,7 @@ six==1.17.0
     #   -r requirements/test.txt
     #   edx-lint
     #   python-dateutil
-snowballstemmer==2.2.0
+snowballstemmer==3.0.1
     # via pydocstyle
 stevedore==5.4.1
     # via
