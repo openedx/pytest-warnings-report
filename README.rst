@@ -1,3 +1,7 @@
+🛑🛑🛑 This repo is no longer being maintained. 🛑🛑🛑
+
+See https://github.com/openedx/axim-engineering/issues/1596 for more details.
+
 ======================
 pytest-warnings-report
 ======================
